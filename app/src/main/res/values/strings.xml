@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StepCounterApp</string>
+    <string-array name="hello">
+        <item>Home</item>
+        <item>Timeline</item>
+        <item>Settings</item>
+        <item>google maps features</item>
+        <item>Help and feedback</item>
+    </string-array>
+</resources>

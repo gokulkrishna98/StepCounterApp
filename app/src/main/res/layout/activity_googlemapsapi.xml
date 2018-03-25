@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5a0"
+    tools:context="com.example.gokulkrishnam.stepcounterapp.googlemapsapi">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mapsvieworigin"
+        android:text="Set Origin"
+        android:textAllCaps="false"
+        android:background="#ff0"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="36dp"
+        android:text="Origin info"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewdestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="destination info" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set destination"
+        android:textAllCaps="false"
+        android:onClick="mapsviewdest"
+        android:layout_marginTop="36dp"
+        android:background="#ff0"
+        android:layout_below="@+id/textViewdestination"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/setpathbutton"
+        android:background="#ff0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:onClick="setpath"
+        android:text="setpath" />
+
+    <Button
+        android:id="@+id/healthdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health data"
+        android:background="#faf"
+        android:onClick="healthdata"
+        android:textAllCaps="false"
+        android:layout_below="@+id/setpathbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/setpathbutton"
+        android:layout_marginStart="12dp"
+        android:background="#faf"
+        android:textAllCaps="false"
+        android:text="iTrack"
+        android:onClick="trackme"/>
+
+
+</RelativeLayout>
